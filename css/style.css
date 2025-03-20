@@ -254,6 +254,12 @@ img.padding_right_10 {
     width: 33%;
     float: left;
 }
+.logo a{
+    font-weight: bold;
+    color: #0d426e;
+    font-size: small;
+}
+
 .menu_text {
     width: 10%;
     float: right;
@@ -476,9 +482,10 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-size: 26px;
-    color: #252525;
+    font-weight: 800;
+    color: #0c426e;
     text-align: center;
-    padding-top: 68px;
+    padding-top: 20px;
 }
 .lorem_text{
     width: 90%;
