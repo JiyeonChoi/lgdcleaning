@@ -240,7 +240,7 @@ button {
     color: #060606;
 }
 .contact_menu li a:hover{
-    color: #0c426e;
+    color: #fe72c8;
 }
 img.padding_right_10 {
     padding-right: 20px;
@@ -260,7 +260,7 @@ img.padding_right_10 {
 }
 .logo a{
     font-weight: bold;
-    color: #0d426e;
+    color: #fe72c8;
     font-size: medium;
 }
 
@@ -298,7 +298,7 @@ img.padding_right_10 {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: rgba(12,66,110, 0.95);
+    background-color: #fe72c8f6;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -333,7 +333,7 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     padding-bottom: 90px;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     height: auto;
 }
 
@@ -381,11 +381,11 @@ img.padding_right_10 {
 }
 .quote_bt a:hover{ 
     color: #fafafa; 
-    background-color: #0c426e;
+    background-color: #fe72c8;
 }
 .quote_bt.active a{ 
     color: #fafafa; 
-    background-color: #0c426e;
+    background-color: #fe72c8;
 }
 .contact_bt {
     width: 180px;
@@ -404,7 +404,7 @@ img.padding_right_10 {
 }
 .contact_bt a:hover{ 
     color: #fafafa; 
-    background-color: #0c426e;
+    background-color: #fe72c8;
 }
 
 
@@ -434,7 +434,7 @@ img.padding_right_10 {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-    background: #0c426e;
+    background: #fe72c8;
     color: #ffffff;
 }
 /* banner section end */
@@ -487,7 +487,7 @@ img.padding_right_10 {
     float: left;
     font-size: 26px;
     font-weight: 800;
-    color: #0c426e;
+    color: #fe72c8;
     text-align: center;
     padding-top: 20px;
 }
@@ -512,7 +512,7 @@ img.padding_right_10 {
     padding-top: 20px;
 }
 .seemore_bt a:hover{
-    color: #0c426e;
+    color: #fe72c8;
 }
 .image_1{
     width: 100%;
@@ -606,7 +606,7 @@ img.padding_right_10 {
     padding: 40px 20px;
 }
 .choose_box:hover{
-    background-color: #0c426e;
+    background-color: #fe72c8;
 }
 .choose_box:hover .number_text{
     color: #ffffff;
@@ -626,9 +626,9 @@ img.padding_right_10 {
     width: 40px;
     height: 35px;
     font-size: 16px;
-    color: #0c426e;
+    color: #fe72c8;
     border-radius: 100%;
-    border: 1px solid #0c426e;
+    border: 1px solid #fe72c8;
     text-align: center;
     padding: 5px 0px;
     font-weight: 600;
@@ -637,7 +637,7 @@ img.padding_right_10 {
     width: 100%;
     float: legft;
     font-size: 16px;
-    color: #0c426e;
+    color: #fe72c8;
     padding-left: 20px;
     padding-top: 5px;
     font-weight: 600;
@@ -653,7 +653,7 @@ img.padding_right_10 {
 }
 
 #pricing {
-    background: #0c426e;
+    background: #fe72c8;
     padding-top: 40px;
     margin-top:90px;
     padding-bottom: 30px;
@@ -675,7 +675,7 @@ img.padding_right_10 {
     padding-top: 0 !important;
     padding-left: 30px;
     padding-right: 30px;
-    color: #c1c0c0;
+    color: #252525;
 }
 
 #pricing .contact_bt{
@@ -686,7 +686,7 @@ img.padding_right_10 {
 }
 
 #pricing .contact_bt a:hover{ 
-    color: #0c426e; 
+    color: #fe72c8; 
     background-color: white;
     font-weight: bold;
 }
@@ -773,7 +773,7 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #0c426e;
+    color: #fe72c8;
     margin: 0px;
     padding-left: 20px;
 }
@@ -787,7 +787,7 @@ img.padding_right_10 {
     position: absolute;
     right: 40px;
     top: 33%;
-    background: #0c426e;
+    background: #fe72c8;
     color: #ffffff;
 }
 
@@ -806,7 +806,7 @@ img.padding_right_10 {
 #my_slider .carousel-control-next:hover, 
 #my_slider .carousel-control-prev:focus, 
 #my_slider .carousel-control-next:focus {
-    background: #0c426e;
+    background: #fe72c8;
     color: #ffffff;}
 
 /* testimonial section end */
@@ -874,7 +874,7 @@ input.Enter_text::placeholder {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #0c426e;
+    background-color: #fe72c8;
     text-align: center;
     padding: 8px 0px;
     text-transform: uppercase;
@@ -961,7 +961,7 @@ input.Enter_text::placeholder {
 
 .facebookBtn:hover {
     color: #ffffff;
-    background: #0c426e;
+    background: #fe72c8;
 }
 
 
@@ -979,7 +979,7 @@ input.Enter_text::placeholder {
 
 .twitterBtn:hover {
     color: #ffffff;
-    background: #0c426e;
+    background: #fe72c8;
 }
 
 
@@ -997,7 +997,7 @@ input.Enter_text::placeholder {
 
 .instagramBtn:hover {
     color: #ffffff;
-    background: #0c426e;
+    background: #fe72c8;
 }
 
 
@@ -1015,7 +1015,7 @@ input.Enter_text::placeholder {
 
 .linkedinBtn:hover {
     color: #ffffff;
-    background: #0c426e;
+    background: #fe72c8;
 }
 
 
@@ -1049,7 +1049,7 @@ input.Enter_text::placeholder {
     color: #fffcf4; 
 }
 .copyright_text a:hover { 
-    color: #0c426e; 
+    color: #fe72c8; 
 }
 
 .margin_top_90{
