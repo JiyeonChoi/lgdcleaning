@@ -12,6 +12,15 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
+/* 
+Hex Code: #f27abb
+RGB: (242, 122, 187)
+
+
+Hex code: #4e4e4e
+RGB: (78, 78, 78)
+for gray
+ */
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -56,7 +65,7 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #111111;
+     color: #4e4e4e;
      margin: 0
 }
 
@@ -212,6 +221,7 @@ button {
     width: 100%;
     float: left;
     padding: 20px 0px;
+    padding-left: 15px;
 }
 
 .toggle_icon{ 
@@ -233,14 +243,14 @@ button {
 .contact_menu li{
     float: left;
     font-size: 18px;
-    color: #060606;
+    color: #4e4e4e;
     padding: 0px 20px;
 }
 .contact_menu li a{
-    color: #060606;
+    color: #4e4e4e;
 }
 .contact_menu li a:hover{
-    color: #fe72c8;
+    color: #f27abb;
 }
 img.padding_right_10 {
     padding-right: 20px;
@@ -253,15 +263,19 @@ img.padding_right_10 {
 .logo {
     width: 33%;
     float: left;
-    text-align: center;
-    width: 200px;
+    text-align: left;
+    width: 400px;
     margin-left: -10px;
     margin-top: 22px;
 }
 .logo a{
     font-weight: bold;
-    color: #fe72c8;
+    color: #f27abb;
     font-size: medium;
+}
+
+.logo img{
+    width: 50px;
 }
 
 .menu_text {
@@ -298,7 +312,7 @@ img.padding_right_10 {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: #fe72c8f6;
+    background-color: #f27abbf6;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -349,7 +363,7 @@ img.padding_right_10 {
     float: left;
     font-weight: bold;
     font-size: 76px;
-    color: #060606;
+    color: #4e4e4e;
     line-height: 90px;
 }
 
@@ -357,7 +371,7 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #060606;
+    color: #4e4e4e;
     margin: 0px;
 }
 
@@ -375,7 +389,7 @@ img.padding_right_10 {
 .quote_bt a{ 
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #4e4e4e;
     padding: 8px 10px;
     color: #fafafa;
     text-align: center;
@@ -383,11 +397,11 @@ img.padding_right_10 {
 }
 .quote_bt a:hover{ 
     color: #fafafa; 
-    background-color: #fe72c8;
+    background-color: #f27abb;
 }
 .quote_bt.active a{ 
     color: #fafafa; 
-    background-color: #fe72c8;
+    background-color: #f27abb;
 }
 .contact_bt {
     width: 180px;
@@ -398,7 +412,7 @@ img.padding_right_10 {
 .contact_bt a{ 
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #4e4e4e;
     padding: 8px 10px;
     color: #fafafa;
     text-align: center;
@@ -406,7 +420,7 @@ img.padding_right_10 {
 }
 .contact_bt a:hover{ 
     color: #fafafa; 
-    background-color: #fe72c8;
+    background-color: #f27abb;
 }
 
 
@@ -426,7 +440,7 @@ img.padding_right_10 {
 #main_slider .carousel-control-next {
     width: 68px;
     height: 68px;
-    background: #252525;
+    background: #4e4e4e;
     opacity: 1;
     font-size: 20px;
     color: #ffffff;
@@ -436,7 +450,7 @@ img.padding_right_10 {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-    background: #fe72c8;
+    background: #f27abb;
     color: #ffffff;
 }
 /* banner section end */
@@ -455,7 +469,7 @@ img.padding_right_10 {
 .services_taital {
     width: 100%;
     font-size: 30px;
-    color: #252525;
+    color: #4e4e4e;
     text-align: center;
     font-weight: bold;
 }
@@ -464,7 +478,7 @@ img.padding_right_10 {
     position: absolute;
     width: 85px;
     height: 10px;
-    background-color: #000;
+    background-color: #4e4e4e;
     left: 0px;
     right: 0px;
     margin: 0 auto;
@@ -475,7 +489,7 @@ img.padding_right_10 {
 .services_text {
     width: 100%;
     font-size: 16px;
-    color: #000;
+    color: #4e4e4e;
     text-align: center;
     margin: 0px;
     padding-top: 30px;
@@ -489,7 +503,7 @@ img.padding_right_10 {
     float: left;
     font-size: 26px;
     font-weight: 800;
-    color: #fe72c8;
+    color: #f27abb;
     text-align: center;
     padding-top: 20px;
 }
@@ -497,7 +511,7 @@ img.padding_right_10 {
     width: 90%;
     margin: 0 auto;
     font-size: 15px;
-    color: #252525;
+    color: #4e4e4e;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -509,12 +523,12 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #000;
+    color: #4e4e4e;
     text-align: center;
     padding-top: 20px;
 }
 .seemore_bt a:hover{
-    color: #fe72c8;
+    color: #f27abb;
 }
 .image_1{
     width: 100%;
@@ -584,7 +598,7 @@ img.padding_right_10 {
 }
 .quote_bt_1 a:hover {
     color: #ffffff;
-    background-color: #252525;
+    background-color: #4e4e4e;
 }
 
 /* providing section end */
@@ -608,7 +622,7 @@ img.padding_right_10 {
     padding: 40px 20px;
 }
 .choose_box:hover{
-    background-color: #fe72c8;
+    background-color: #f27abb;
 }
 .choose_box:hover .number_text{
     color: #ffffff;
@@ -628,9 +642,9 @@ img.padding_right_10 {
     width: 40px;
     height: 35px;
     font-size: 16px;
-    color: #fe72c8;
+    color: #f27abb;
     border-radius: 100%;
-    border: 1px solid #fe72c8;
+    border: 1px solid #f27abb;
     text-align: center;
     padding: 5px 0px;
     font-weight: 600;
@@ -639,7 +653,7 @@ img.padding_right_10 {
     width: 100%;
     float: legft;
     font-size: 16px;
-    color: #fe72c8;
+    color: #f27abb;
     padding-left: 20px;
     padding-top: 5px;
     font-weight: 600;
@@ -655,9 +669,9 @@ img.padding_right_10 {
 }
 
 #pricing {
-    background: #fe72c8;
+    background: #f27abb;
     padding-top: 40px;
-    margin-top:90px;
+    margin-top: -20px;
     padding-bottom: 30px;
 }
 
@@ -677,7 +691,7 @@ img.padding_right_10 {
     padding-top: 0 !important;
     padding-left: 30px;
     padding-right: 30px;
-    color: #252525;
+    color: #4e4e4e;
 }
 
 #pricing .contact_bt{
@@ -688,7 +702,7 @@ img.padding_right_10 {
 }
 
 #pricing .contact_bt a:hover{ 
-    color: #fe72c8; 
+    color: #f27abb; 
     background-color: white;
     font-weight: bold;
 }
@@ -697,7 +711,7 @@ img.padding_right_10 {
 .dummy_text {
     width: 100%;
     font-size: 14px;
-    color: #000;
+    color: #4e4e4e;
     margin: 0px;
 }
 /* choose section end */
@@ -711,7 +725,7 @@ img.padding_right_10 {
 .testimonial_taital {
     width: 100%;
     font-size: 30px;
-    color: #111111;
+    color: #4e4e4e;
     text-align: center;
     font-weight: bold;
 }
@@ -720,7 +734,7 @@ img.padding_right_10 {
     position: absolute;
     width: 85px;
     height: 10px;
-    background-color: #252525;
+    background-color: #4e4e4e;
     left: 0px;
     right: 0px;
     margin: 0 auto;
@@ -775,7 +789,7 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #fe72c8;
+    color: #f27abb;
     margin: 0px;
     padding-left: 20px;
 }
@@ -789,7 +803,7 @@ img.padding_right_10 {
     position: absolute;
     right: 40px;
     top: 33%;
-    background: #fe72c8;
+    background: #f27abb;
     color: #ffffff;
 }
 
@@ -797,7 +811,7 @@ img.padding_right_10 {
 #my_slider .carousel-control-next {
     width: 68px;
     height: 68px;
-    background: #0c0c0c;
+    background: #4e4e4e;
     opacity: 1;
     font-size: 20px;
     color: #ffffff;
@@ -808,7 +822,7 @@ img.padding_right_10 {
 #my_slider .carousel-control-next:hover, 
 #my_slider .carousel-control-prev:focus, 
 #my_slider .carousel-control-next:focus {
-    background: #fe72c8;
+    background: #f27abb;
     color: #ffffff;}
 
 /* testimonial section end */
@@ -818,7 +832,7 @@ img.padding_right_10 {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #4e4e4e;
     height: auto;
 }
 .useful_text {
@@ -876,7 +890,7 @@ input.Enter_text::placeholder {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #fe72c8;
+    background-color: #f27abb;
     text-align: center;
     padding: 8px 0px;
     text-transform: uppercase;
@@ -963,7 +977,7 @@ input.Enter_text::placeholder {
 
 .facebookBtn:hover {
     color: #ffffff;
-    background: #fe72c8;
+    background: #f27abb;
 }
 
 
@@ -981,7 +995,7 @@ input.Enter_text::placeholder {
 
 .twitterBtn:hover {
     color: #ffffff;
-    background: #fe72c8;
+    background: #f27abb;
 }
 
 
@@ -999,7 +1013,7 @@ input.Enter_text::placeholder {
 
 .instagramBtn:hover {
     color: #ffffff;
-    background: #fe72c8;
+    background: #f27abb;
 }
 
 
@@ -1017,7 +1031,7 @@ input.Enter_text::placeholder {
 
 .linkedinBtn:hover {
     color: #ffffff;
-    background: #fe72c8;
+    background: #f27abb;
 }
 
 
@@ -1033,7 +1047,7 @@ input.Enter_text::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #4e4e4e;
     height: auto;
     padding-top: 60px;
     padding-bottom: 20px;
@@ -1051,7 +1065,7 @@ input.Enter_text::placeholder {
     color: #fffcf4; 
 }
 .copyright_text a:hover { 
-    color: #fe72c8; 
+    color: #f27abb; 
 }
 
 .margin_top_90{
